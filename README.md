@@ -1,5 +1,5 @@
 # akka-cluster-minimal
-Akka Cluster - absolute minimal
+Akka Cluster - the absolute bare mininum ...
 
 Run seed node:
 
