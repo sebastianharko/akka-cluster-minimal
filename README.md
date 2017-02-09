@@ -1,6 +1,6 @@
 # akka-cluster-minimal
 
-Akka Cluster with the Management Http Api - absolute minimal
+Akka Cluster ... pretty minimal setup ... the awesome Management Http Api is included 
 
 Run seed node:
 
