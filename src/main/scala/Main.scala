@@ -1,11 +1,10 @@
 import akka.actor.ActorSystem
-import akka.cluster.Cluster
-import akka.cluster.http.management.ClusterHttpManagement
+import akka.management.AkkaManagement
 
 object Main extends App {
 
   implicit val system = ActorSystem("minimal")
 
-  ClusterHttpManagement(Cluster(system)).start()
+  AkkaManagement(system).start()
 
 }
